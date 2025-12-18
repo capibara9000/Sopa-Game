@@ -209,6 +209,13 @@ export const themes = {
         color: '#f59e0b',
         keywords: ['cocina', 'cocinar', 'chef', 'recetas', 'gastronomia'],
         words: ['sarten', 'olla', 'cuchillo', 'horno', 'nevera', 'batidora', 'receta', 'plato', 'tenedor', 'cuchara', 'copa', 'delantal', 'fuego', 'ingrediente', 'mezcla']
+    },
+    creador: {
+        name: 'El Creador',
+        icon: '👑',
+        color: '#ffd700',
+        keywords: ['creador', 'nelo', 'jefe', 'boss'],
+        words: ['nelo', 'creador', 'sopa', 'letras', 'react', 'codigo', 'genio', 'jefe', 'master', 'programador', 'developer', 'frontend', 'logica', 'bug', 'feature']
     }
 };
 

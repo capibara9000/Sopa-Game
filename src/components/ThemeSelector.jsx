@@ -58,6 +58,18 @@ function ThemeSelector({ onSelectTheme }) {
                 </button>
             </div>
 
+            {/* Creator Dropdown */}
+            <details className="creator-dropdown">
+                <summary className="creator-summary">👑 El Creador</summary>
+                <div className="creator-content">
+                    <img src="/src/assets/creator.jpg" alt="El Creador" className="creator-image" />
+                    <p>¡Hola! Soy el creador de este juego.</p>
+                    <button className="creator-play-button" onClick={() => onSelectTheme('creador')}>
+                        Jugar Modo Creador
+                    </button>
+                </div>
+            </details>
+
             {/* Custom Theme Input */}
             {showCustomInput && (
                 <div className="custom-theme-section">
