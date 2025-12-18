@@ -1,0 +1,6 @@
+.app {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    animation: fadeIn 0.5s ease-out;
+}
