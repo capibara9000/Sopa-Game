@@ -32,6 +32,9 @@ function App() {
                     onNewGame={handleNewGame}
                 />
             )}
+            <div style={{ textAlign: 'center', margin: '20px 0', fontSize: '12px', color: '#666' }}>
+                canvio minusculo 💩
+            </div>
         </div>
     );
 }
